@@ -1,0 +1,15 @@
+[user]
+	name = Jia Cao
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	blame = auto
+[alias]
+	st = status
+	commit = ci
+  lg = log --date=iso --pretty=format:\"%Cred%h %Cgreen%an %C(yellow)%ad %Cblue%d%n%s\"
+[commit]
+    #template = /Users/caojia/.git.template
+[core]
+	editor = /usr/bin/vim
